@@ -1,0 +1,6 @@
+<div #container class="step-container">
+  <div #step *ngFor="let item of items;let i = index" class="step {{i}}">
+    <div class="title">{{item.name}}</div>
+    <div class="detail">{{item.detail}}</div>
+  </div>
+</div>
